@@ -2,7 +2,7 @@ name: CI
 on: push
 jobs:
   build:
-    runson: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Build application
         run: echo "building application......"
