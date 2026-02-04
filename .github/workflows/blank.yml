@@ -5,6 +5,11 @@ on:
       - main
       - feature_1
       - 'release/**'
+  pull_request:
+    types: 
+      - opened
+    branches:
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
