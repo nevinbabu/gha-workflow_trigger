@@ -15,5 +15,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build application
-        run: echo "building application......"
+        run: echo "Executing ${{ vars.STEP_1 }}"
 
