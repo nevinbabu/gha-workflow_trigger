@@ -17,4 +17,4 @@ jobs:
       - name: Build application
         run: echo "Executing ${{ vars.STEP_1 }}"
       - name: Call API
-        run: echo "Calling API with token => ${{ vars.API_TOKEN }}"
+        run: echo "Calling API with token => ${{ secrets.API_TOKEN }}"
